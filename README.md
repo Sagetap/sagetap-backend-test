@@ -59,8 +59,10 @@ suspend fun saySomething(): String {
 
 ## Prompt #3: SQL
 Given a table: `Employee`
-| ID | number | PK |
+
+| Name | Type | Index |
 | --- | --- | --- |
+| ID | number | PK |
 | DEPARTMENT_ID | number |  |
 | CHIEF_ID | number | FK (Employee table) |
 | NAME | varchar(100) |  |

@@ -1,30 +1,27 @@
-fun main(args: Array<String>) {
+fun main() {
     println("We don't care about main for this test.")
 }
 
-class ShoppingCart() {
+class ShoppingCart {
     var p: List<String> = listOf();
 
-    fun addProduct(product: String)
-    {
-        p += product;
+    fun addProduct(product: String) {
+        p = p + product;
     }
 
     fun show(): String {
-        var string: String = "";
+        var string = "";
+
         for ((i, p) in p.withIndex()) {
-            string = string.plus(p).plus(", ");
+            string = string.plus(p).plus(", ")
         }
 
-        return "Shopping Cart: " + string;
+        return "Shopping Cart: $string"
     }
 }
 
-class ShoppingCartManager() {
+class ShoppingCartManager {
     fun get(): ShoppingCart {
-        return ShoppingCart();
+        return ShoppingCart()
     }
 }
-
-
-
