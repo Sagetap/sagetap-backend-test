@@ -1,8 +1,4 @@
-fun main() {
-    println("We don't care about main for this test.")
-}
-
-class ShoppingCart {
+class ShoppingCartKotlin {
     var p: List<String> = listOf();
 
     fun addProduct(product: String) {
@@ -17,11 +13,5 @@ class ShoppingCart {
         }
 
         return "Shopping Cart: $string"
-    }
-}
-
-class ShoppingCartManager {
-    fun get(): ShoppingCart {
-        return ShoppingCart()
     }
 }

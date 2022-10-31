@@ -1,8 +1,6 @@
 import org.junit.jupiter.api.Test
 
-import org.junit.jupiter.api.Assertions.*
-
-internal class ShoppingCartTest {
+internal class ShoppingCartKotlinTest {
     /*
         1) This test fails when it should be passing. Please dig in and find out what is wrong here, and please correct
         and improve any code you see along the way.
@@ -10,10 +8,10 @@ internal class ShoppingCartTest {
     @Test
     fun addAndShowWorks() {
         // Get the shopping cart and add items to it
-        ShoppingCartManager().get().addProduct("Apple");
-        ShoppingCartManager().get().addProduct("Orange");
+        ShoppingCartManagerKotlin().get().addProduct("Apple");
+        ShoppingCartManagerKotlin().get().addProduct("Orange");
         // Print the contents of the shopping cart and make sure the output is correct
-        assert(ShoppingCartManager().get().show().contains("Shopping Cart: Apple, Orange"));
+        assert(ShoppingCartManagerKotlin().get().show().contains("Shopping Cart: Apple, Orange"));
     }
 
     /*
