@@ -8,11 +8,11 @@ The intent is to see how you think, problem solve, and communicate, and to check
 Please see the prompts below, which your Sagetap partner will walk through and discuss with you.
 
 ## Prompt #1: ShoppingCart Code Fixes
-Within this repository you will find a Kotlin project containing two relevant files:
-1. `src/main/kotlin/Main`, which contains an implementation for the classes `ShoppingCart` and `ShoppingCartManager`.
-2. `src/test/kotlin/ShoppingCartTest`, which contains tests for the aforementioned classes.
+Within this repository you will find a Kotlin project containing next relevant files and folders:
+1. `src/main/*`, which contains an implementation for the classes `ShoppingCartKotlin` and `ShoppingCartManagerKotlin`.
+2. `src/test/kotlin/ShoppingCartKotlinTest`, which contains tests for the aforementioned classes.
 
-Within `ShoppingCartTest` you will find three further prompts. Please walk through those and edit/extend the code as you see fit and/or discuss your
+Within `ShoppingCartKotlinTest` you will find three further prompts. Please walk through those and edit/extend the code as you see fit and/or discuss your
 thought process with your interviewer.
 
 ## Prompt #2: Technical Questions
